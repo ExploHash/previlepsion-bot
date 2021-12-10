@@ -1,0 +1,22 @@
+{
+  "name": "previlepsion-bot",
+  "version": "1.0.0",
+  "description": "Discord bot which scans gifs and videos for epilepsion triggerable content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimmy Beaart <Explohash>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "get-pixels": "^3.3.3",
+    "gif-encoder": "^0.7.2",
+    "ndarray": "^1.0.19",
+    "node-fetch": "^2.6.6",
+    "save-pixels": "^2.3.6",
+    "zeros": "^1.0.0"
+  }
+}
